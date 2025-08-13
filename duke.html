@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Duke Bike Official Website" />
+  <meta name="keywords" content="Duke Bike, Motorcycle, KTM, Sports Bike" />
+  <meta name="author" content="Duke Motors" />
+  <title>Duke Bike – Power Meets Precision</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      position: relative;
+    }
+
+    header, footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    article, section {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 5px;
+    }
+
+    section.gallery img,
+    .model-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    aside {
+      background-color: #eee;
+      padding: 15px;     
+      margin: 20px;
+    }
+
+    footer p {
+      margin: 5px;
+    }
+
+    #models {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 20px;
+      justify-content: center;
+      overflow-x: auto;
+    }
+
+    .model-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      width: 300px;
+      min-width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin: 8px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form input[type="submit"],
+    form input[type="reset"] {
+      background-color: #f60;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover,
+    form input[type="reset"]:hover {
+      background-color: #e55;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Duke Bike</h1>
+    <p><em>Power Meets Precision</em></p>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#specs">Specs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="features">
+      <h2>Top Features</h2>
+      <ul>
+        <li>Liquid-Cooled Engine</li>
+        <li>LED Headlamps</li>
+        <li>ABS Brakes</li>
+        <li>6-Speed Gearbox</li>
+      </ul>
+    </article>
+
+    <section id="gallery" class="gallery">
+      <h2>Gallery</h2>
+      
+       <video width="1400" height=800" controls>
+<source src="C:\Users\BOOPATHI\Downloads\duke.mp4" type="video/mp4">
+</video>
+          </section>
+
+    <section id="models">
+      <h2>Duke Bike Models</h2>
+      <div class="model-card">
+        <h3>Duke 125</h3>
+        <img src="C:\Users\BOOPATHI\OneDrive\Pictures\125.jpg" alt="Duke 125" />
+        <ul>
+          <li>Engine: 124.7cc</li>
+          <li>Power: 14.5 PS @ 9250 rpm</li>
+          <li>Weight: 159 kg</li>
+        </ul>
+      </div>
+      <div class="model-card">
+        <h3>Duke 200</h3>
+        <img src="C:\Users\BOOPATHI\OneDrive\Pictures\200.jpg" alt="Duke 200" width="150" height="300" />
+        <ul>
+          <li>Engine: 199.5cc</li>
+          <li>Power: 25 PS @ 10,000 rpm</li>
+          <li>Weight: 159.5 kg</li>
+        </ul>
+      </div>
+      <div class="model-card">
+        <h3>Duke 250</h3>
+        <img src="C:\Users\BOOPATHI\OneDrive\Pictures\250.jpg" alt="Duke 250" width="150" height="300" />
+        <ul>
+          <li>Engine: 248.8cc</li>
+          <li>Power: 30 PS @ 9000 rpm</li>
+          <li>Weight: 162 kg</li>
+        </ul>
+      </div>
+      <div class="model-card">
+        <h3>Duke 390</h3>
+        <img src="C:\Users\BOOPATHI\OneDrive\Pictures\390" alt="Duke 390" width="150" height="300"/>
+        <ul> 
+          <li>Engine: 373cc</li>
+          <li>Power: 43.5 PS @ 9000 rpm</li>
+          <li>Weight: 149 kg</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="specs">
+      <h2>Specifications</h2>
+      <table border="1">
+        <caption>Bike Specifications</caption>
+        <thead>
+          <tr><th>Feature</th><th>Details</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Engine</td><td>373cc, Liquid-Cooled</td></tr>
+          <tr><td>Max Power</td><td>43.5 PS @ 9000 rpm</td></tr>
+          <tr><td>Weight</td><td>149 kg</td></tr>
+          <tr><td>Top Speed</td><td>140 km/h</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <aside>
+      <h3>Customer Review</h3>
+      <blockquote cite="https://example.com/reviews">
+        “The Duke delivers unmatched performance and style. Absolutely love riding it!”
+      </blockquote>
+      <p>— Arjun, Bangalore</p>
+    </aside>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <input type="submit" value="Send" />
+        <input type="reset" value="Clear" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      Duke Motors, Race Track Road, Coimbatore, Tamil Nadu<br />
+      Email: support@dukebike.com | Phone: +91-9876543210
+    </address>
+    <p>&copy; 2025 Duke Motors. All rights reserved.</p>
+    <details>
+      <summary>Privacy Policy</summary>
+      <p>We respect your privacy and handle your data responsibly.</p>
+    </details>
+  </footer>
+
+  <script>console.log("Welcome to the Duke Bike page!");</script>
+</body>
+</html>
